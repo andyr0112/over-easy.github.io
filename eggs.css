@@ -1,0 +1,75 @@
+* {
+    font-family: comic sans ms;
+    text-align: center;
+    list-style-position: inside;
+}
+
+html {
+    background-color: #D6DAC8;
+}
+
+.heading {
+    position: absolute;
+    font-size: 32px;
+}
+
+header {
+    background-image: linear-gradient(#d4a674, #a10d4d);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.recipe-page {
+    background-color: #FBF3D5;
+    width: 60%;
+    border: 5px solid #EFBC9B;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.divider {
+    border-bottom: 4px solid #EFBC9B;
+}
+
+
+ul > li {
+    margin: 5px 50px 5px 0;
+}
+
+.nav-buttons > li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #804513;
+    border-radius: 7px;
+    transition: font-size 0.5s
+}
+
+a:hover {
+    color: #cc5880;
+    font-size: 20px;
+}
+
+.coloring {
+    color: #C68484
+}
+
+.bold {
+    font-weight: 600
+}
+
+h3 {
+    font-size: 10px;
+}
